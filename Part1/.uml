@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1281.0" y="436.0">SkipList.SLNode</node>
+    <node x="207.0" y="0.0">BinaryTree</node>
+    <node x="0.0" y="1446.0">main</node>
+    <node x="1265.0" y="0.0">SkipList</node>
+    <node x="918.0" y="0.0">NavigableSetWithSkipList</node>
+    <node x="571.0" y="0.0">NavigableSetWithAVLTree</node>
+    <node x="232.87500000000003" y="1235.0">AVLTree.AVLNode</node>
+    <node x="0.0" y="756.0">AVLTree</node>
+    <node x="379.75" y="370.5">BinaryTree.Node</node>
+    <node x="58.5" y="305.0">BinarySearchTree</node>
+    <node x="33.5" y="630.0">BinarySearchTreeWithRotate</node>
+    <node x="33.0" y="56.5">SearchTree</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="AVLTree.AVLNode" target="AVLTree">
+      <point x="-35.5" y="-83.0" />
+      <point x="268.375" y="1210.0" />
+      <point x="161.5" y="1210.0" />
+      <point x="0.0" y="214.5" />
+    </edge>
+    <edge source="SkipList.SLNode" target="SkipList">
+      <point x="0.0" y="-61.0" />
+      <point x="0.0" y="193.0" />
+    </edge>
+    <edge source="BinarySearchTreeWithRotate" target="BinarySearchTree">
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="137.5" />
+    </edge>
+    <edge source="BinarySearchTree" target="BinaryTree">
+      <point x="51.5" y="-137.5" />
+      <point x="213.0" y="280.0" />
+      <point x="286.75" y="280.0" />
+      <point x="-79.75" y="127.5" />
+    </edge>
+    <edge source="BinaryTree.Node" target="BinaryTree">
+      <point x="0.0" y="-72.0" />
+      <point x="79.75" y="127.5" />
+    </edge>
+    <edge source="BinarySearchTree" target="SearchTree">
+      <point x="-51.5" y="-137.5" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="AVLTree" target="BinarySearchTreeWithRotate">
+      <point x="0.0" y="-214.5" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="AVLTree.AVLNode" target="BinaryTree.Node">
+      <point x="35.5" y="-83.0" />
+      <point x="339.375" y="1210.0" />
+      <point x="446.25" y="1210.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9540540540540541" x="684.8866855524079" y="350.0" />
+  <SelectedNodes>
+    <node>BinaryTree</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
